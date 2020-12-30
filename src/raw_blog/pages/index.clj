@@ -18,17 +18,11 @@ a {
   text-decoration: none;
   color: white;
 }
-
-.post {
-  padding: 1rem;
-  border-radius: 5px;
-  background: #5f5762;
-}
 ")
 
 (def page (blog-previews blg/all))
 
-(defn index-page [ctx]
+(defn index-page []
   (layout {:title "Raw Coding Blog"
            :css css
            :content page}))

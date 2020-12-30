@@ -7,12 +7,19 @@ body {
 }
 
 * {
+  color: white !important;
   font-family: 'Nunito', sans-serif !important;
 }
 
 div.content {
   margin: auto;
   max-width: 800px;
+}
+
+.post {
+  padding: 1rem;
+  border-radius: 5px;
+  background: #5f5762;
 }
 ")
 

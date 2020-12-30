@@ -4,9 +4,9 @@
  :author "Anton Wieslander"
  :date ""
  :content [:div.post 
-           [:h4.post-title "Learning Clojure & Emacs on Mac"]
+           [:h2 "Learning Clojure & Emacs on Mac"]
            [:div.post-content 
-            [:h5.post-heading "Introduction"]
+            [:h3.post-heading "Introduction"]
             [:p "Much like smoking weed some people get the impression that they might be missing out on a great big secret if they don't smoke it. That's the way I felt towards people who use emacs/vim, develop on Mac, go to developer conventions and cover their laptops in stickers."]
             [:p "So during my Christmas holidays I've decided I am going to build a blog web app using Clojure, Emacs on a Mac, and see if I can uncover any secret knowledge. Bear in mind: I develop on Windows using languages like csharp, js, python, java and tend to heavily lean on IntelliJ IDE support."]
             [:p "Prior to doing this I already have minor Clojure experience and unfortunatley will not be able to re-live the original `it's just data` realization. Previously I've used VS Code + Cider extension + WSL and never got to ship anything to production, so my experience is purely academic."]
