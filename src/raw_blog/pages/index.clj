@@ -1,5 +1,5 @@
 (ns raw-blog.pages.index
-  (:require [raw-blog.blogs :as blg])
+  (:require [raw-blog.blogs.all :refer [blogs]])
   (:require [raw-blog.pages.layout :refer [layout]]))
 
 (defn- blog-preview [key blog]
@@ -20,9 +20,7 @@ a {
 }
 ")
 
-(def page (blog-previews blg/all))
-
 (defn index-page []
   (layout {:title "Raw Coding Blog"
            :css css
-           :content page}))
+           :content (blog-previews blogs)}))

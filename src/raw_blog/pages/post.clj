@@ -1,6 +1,6 @@
 (ns raw-blog.pages.post
   (:require [raw-blog.pages.layout :refer [layout]]
-            [raw-blog.blogs :as blg]))
+            [raw-blog.blogs.all :refer [blogs]]))
 
 (def default-css "
 li {
@@ -10,7 +10,7 @@ li {
 ")
 
 (defn post-page [n]
-  (let [post (blg/get n)]
+  (let [post (blogs n)]
     (when post
       (let [{t :title
              c :content} post]

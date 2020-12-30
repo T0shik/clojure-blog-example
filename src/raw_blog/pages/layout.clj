@@ -3,7 +3,7 @@
 
 (def default-css "
 body {
-  background: #1B0F1E;
+  background: #302c31;
 }
 
 * {
@@ -19,7 +19,7 @@ div.content {
 .post {
   padding: 1rem;
   border-radius: 5px;
-  background: #5f5762;
+  background: #1B0F1E;
 }
 ")
 
